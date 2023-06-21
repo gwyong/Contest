@@ -1,0 +1,11 @@
+train: ../after_augment/train/images
+val: ../after_augment/test/images
+# test: ../train/images
+
+nc: 6
+names: ['Cranes', 'Excavators', 'Bulldozers', 'Scrapers', 'Trucks', 'Workers']
+
+UMICH:
+  workspace: DPM
+  project: Datathon2023 
+  version: 0
